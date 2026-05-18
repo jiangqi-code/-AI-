@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+*.pyc
+
+# 前端依赖和库文件
+node_modules/
+
+# ⚠️ 关键：忽略所有第三方静态资源
+static/css/*.css
+static/js/*.js
+static/fonts/
+static/webfonts/
+static/images/
+static/uploads/
+
+# 但保留你自己写的样式（如果有的话）
+!static/css/custom.css
+!static/js/custom.js
+
+# 图片文件（如果太多）
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.svg
+
+# 环境配置
+.env
+.env.local
+config_local.py
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 数据库
+*.db
+*.sqlite
+
+# 文档生成文件
+*.md
+!README.md
